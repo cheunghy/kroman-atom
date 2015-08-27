@@ -1,3 +1,4 @@
 ## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+* Added romanize region
+* Added romanize buffer
+* Added romanize and compare
