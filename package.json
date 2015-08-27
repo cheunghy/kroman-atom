@@ -1,0 +1,19 @@
+{
+  "name": "kroman",
+  "main": "./lib/kroman",
+  "version": "0.1.0",
+  "description": "Korean hangul romanization",
+  "keywords": [
+    "Korean", "Roman"
+  ],
+  "activationCommands": {
+    "atom-workspace": ["kroman:romanize-region","kroman:romanize-buffer","kroman:romanize-and-compare"]
+  },
+  "repository": "https://github.com/cheunghy/kroman-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

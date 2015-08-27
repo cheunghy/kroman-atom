@@ -1,0 +1,31 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Kroman'
+      'submenu': [
+        {label: "Romanize Region", command: "kroman: romanize-region"}
+        {label: "Romanize Buffer", command: "kroman: romanize-buffer"}
+        {label: "Romanize and Compare", command: 'kroman:romanize-and-compare'}
+      ]
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Kroman'
+      'submenu': [
+        {
+          'label': 'Romanize Region'
+          'command': 'kroman:romanize-region'
+        }
+        {
+          'label': 'Romanize Buffer'
+          'command': 'kroman:romanize-buffer'
+        }
+        {label: "Romanize and Compare", command: 'kroman:romanize-and-compare'}
+      ]
+    ]
+  }
+]
